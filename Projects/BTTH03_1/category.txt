@@ -1,0 +1,12 @@
+n1	Nhóm 1	Nhóm 1
+n2	Nhóm 2	Nhóm 2
+n3	Nhóm 3	Nhóm 3
+n4	Nhóm 4	Nhóm 4
+010	nhóm 4	Bánh kẹo
+005	Nhóm 5	Banh gao
+		
+nhom001	Đồ uống có gas	Nhóm chứa các đồ uống có gas
+		
+DUCC	Đồ uống có cồn	rượu, bia
+		
+		

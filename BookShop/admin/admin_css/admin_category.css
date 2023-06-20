@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --red-color: red;
+    --white-color: #b4b4b4;
+    --black-color: #000;
+    --shadow-color: rgba(0, 0, 0, 0.24);
+    --main-color: #8e44ad;
+}
+
+.add-products,
+.show-products {
+    background-color: var(--white-color);
+    border-radius: 16px;
+    margin-top: 80px;
+    color: var(--black-color);
+    box-shadow: var(--shadow-color) 0px 3px 8px;
+}
+
+.title,
+h3 {
+    padding: 24px;
+    font-size: 32px;
+    text-align: center;
+    color: var(--main-color);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+form,
+.box-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-add,
+.box {
+    border: 3px solid var(--main-color);
+    border-radius: 8px;
+    padding: 8px;
+    outline: none;
+    width: 100%;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name,
+.sub-name {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: var(--main-color);
+}
+
+.option-btn {
+    background-color: var(--main-color);
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    margin: 4px;
+    outline: none;
+}
+
+.option-btn:hover {
+    background-color: rgb(107, 1, 169);
+    color: white;
+}
+
+.delete-btn {
+    background-color: rgb(255, 47, 47);
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.delete-btn:hover {
+    background-color: rgb(190, 5, 5);
+    color: white;
+}

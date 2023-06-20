@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --red-color: red;
+    --white-color: #b4b4b4;
+    --black-color: #000;
+    --shadow-color: rgba(0, 0, 0, 0.24);
+    --main-color: #8e44ad;
+}
+
+.add-products,
+.show-products,
+.edit-product-form {
+    background-color: var(--white-color);
+    border-radius: 16px;
+    margin-top: 80px;
+    color: var(--black-color);
+    box-shadow: var(--shadow-color) 0px 3px 8px;
+}
+
+.form-input,
+.form-edit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title,
+.product-name {
+    padding: 8px;
+    text-align: center;
+    color: var(--main-color);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.product-name {
+    font-size: 28px;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 4px;
+}
+
+.product-name {
+    text-transform: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.box-input {
+    border: 3px solid var(--main-color);
+    border-radius: 8px;
+    padding: 8px;
+    outline: none;
+    width: 40%;
+}
+
+.btn-add {
+    padding: 8px 32px;
+    border: none;
+    outline: none;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 8px;
+    margin: 12px 0 20px 600px;
+}
+
+.btn-add:hover {
+    background-color: #502363;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-detail {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 8px;
+    border: 3px solid var(--main-color);
+    border-radius: 8px;
+}
+
+.product-detail img,
+.form-edit img {
+    width: 12%;
+    border-radius: 8px;
+    margin-right: 12px;
+}
+
+.name,
+.sub-name,
+.price {
+    font-size: 20px;
+    color: var(--main-color);
+    margin: 4px;
+}
+
+.option-btn,
+.delete-btn {
+    width: 88px;
+    height: 56px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 4px;
+}
+
+.option-btn {
+    background-color: var(--main-color);
+}
+
+.option-btn:hover {
+    background-color: #502363;
+    color: white;
+}
+
+.delete-btn {
+    background-color: rgb(255, 47, 47);
+}
+
+.delete-btn:hover {
+    background-color: rgb(190, 5, 5);
+    color: white;
+}
+
+.edit-product-form {
+    padding: 20px;
+}
+
+.btn-submit {
+    margin-top: 20px;
+}
+
+.btn-update,
+.btn-cancel {
+    padding: 8px 32px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.btn-update {
+    background-color: var(--main-color);
+}
+
+.btn-update:hover {
+    background-color: #502363;
+}
+
+.btn-cancel {
+    background-color: rgb(255, 47, 47);
+}
+
+.btn-cancel:hover {
+    background-color: rgb(190, 5, 5);
+}

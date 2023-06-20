@@ -1,0 +1,25 @@
+@import url('./root_login_register.css');
+
+/* Đăng ký */
+
+.sign-up-container {
+    right: 0;
+    width: 50%;
+    opacity: 1;
+    z-index: 1;
+}
+
+.overlay-container {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.overlay-left {
+    right: 0;
+    transform: translateX(0);
+}

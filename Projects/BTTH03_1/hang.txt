@@ -1,0 +1,10 @@
+001	Banh Hura	n1	10	62000	images/thumb-4.jpg	
+002	kẹo	n2	10	23000	images/product-details-5.jpg
+003	Banh gạo OneOne	005	15	20000	images/thumb-1.jpg
+MH01	Coca Cola	n2	3000	15000	images/Iron-Man-Wallpaper-4k-Losos.jpg
+hang01	pepsi	nhom001	1000	17000	images/Artboard 1.jpg
+		nhom001			images/
+mh001	Bia Hà Nội	DUCC	2000	15000	images/Artboard 1.jpg
+					images/
+		n1			images/
+					images/

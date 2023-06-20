@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --red-color: red;
+    --white-color: #b4b4b4;
+    --black-color: #000;
+    --shadow-color: rgba(0, 0, 0, 0.24);
+    --main-color: #8e44ad;
+}
+
+.users {
+    background-color: var(--white-color);
+    border-radius: 16px;
+    margin-top: 80px;
+    color: var(--black-color);
+    box-shadow: var(--shadow-color) 0px 3px 8px;
+}
+
+.title {
+    padding: 32px;
+    font-size: 32px;
+    text-align: center;
+    color: var(--main-color);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.box-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid var(--main-color);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 12px;
+    cursor: pointer;
+    width: 90%;
+}
+
+.box h2 {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    padding: 12px 8px;
+    color: var(--main-color);
+}
+
+.delete-btn {
+    background-color: rgb(255, 47, 47);
+    color: white;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.delete-btn:hover {
+    background-color: rgb(190, 5, 5);
+    color: white;
+}

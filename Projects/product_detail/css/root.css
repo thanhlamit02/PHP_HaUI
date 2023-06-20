@@ -1,0 +1,14 @@
+@import url('./style.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --red-color: red;
+    --white-color: #fff;
+    --black-color: #000;
+    --shadow-color: rgba(0, 0, 0, 0.24);
+}

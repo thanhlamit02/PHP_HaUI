@@ -1,0 +1,53 @@
+header {
+    font-size: 1.6rem !important;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.logo {
+    height: 100px;
+    margin: -32px 0;
+}
+
+.amount-in-cart {
+    position: absolute;
+    top: -8px;
+    left: 16px;
+    font-size: 1.2rem;
+    background: red;
+    color: white;
+    border-radius: 12px;
+    padding: 0 6px;
+    z-index: 10;
+}
+
+.form-search {
+    margin-right: 16px;
+}
+
+.form-search .form-control {
+    font-size: 1.6rem;
+}
+
+.form-search .btn {
+    font-size: 1.4rem;
+}
+
+.fa-shopping-cart {
+    font-size: 1.8rem;
+    color: black;
+}
+
+.dropdown-menu {
+    font-size: 1.6rem;
+}
+
+.avatar_icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+ }

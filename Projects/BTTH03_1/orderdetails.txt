@@ -1,0 +1,22 @@
+1	001	Banh Hura	2	62000
+2	002	kẹo	1	23000
+2	003	Banh gạo OneOne	1	20000
+3	003	Banh gạo OneOne	1	20000
+3	001	Banh Hura	1	62000
+4			1	
+5	001	Banh Hura	2	62000
+6	001	Banh Hura	1	62000
+6	002	kẹo	1	23000
+7	hang01	pepsi	2	17000
+8	MH01	Coca Cola	1	15000
+8	001	Banh Hura	1	62000
+9	mh001	Bia Hà Nội	1	15000
+9	MH01	Coca Cola	1	15000
+10			1	
+10	hang01	pepsi	1	17000
+11			1	
+12	001	Banh Hura	1	62000
+13	001	Banh Hura	1	62000
+14	001	Banh Hura	1	62000
+15	001	Banh Hura	1	62000
+15	002	kẹo	1	23000
